@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Mahasiswa</title>
+</head>
+<body>
+    <fieldset style="background-color:gainsboro">
+        <legend>Daftar Mahasiswa</legend>
+        <form action="#" method="post">
+            <div>
+                <h2>I.Data Diri</h2>
+                <div>
+                    <label for="nip">NIP</label>
+                    <input type="text" name="nip" id="nip">
+                </div>
+                <div>
+                    <label for="nisn">NISN</label>
+                    <input type="text" name="nisn" id="nisn" required>
+                </div>
+                <div>
+                    <label for="nama">Nama Lengkap</label>
+                    <input type="text" name="nama" id="nama" required>
+                </div>
+                <div>
+                    <label for="tgl_lahir">Tanggal Lahir</label>
+                    <input type="date" name="tgl_lahir" id="tgl_lahir" required>
+                </div>
+                <div>
+                    <label for="gender">Jenis Kelamin</label>
+                    <div>
+                        <input type="radio" name="gender" id="gender" value="pria">Pria
+                        <input type="radio" name="gender" id="gender" value="wanita">Wanita
+                    </div>
+                </div>
+                <div>
+                    <label for="last_degree">Pendidikan Terakhir</label>
+                    <input type="text" name="last_degree" id="last_degree" required>
+                </div>
+                <div>
+                    <label for="asal_sekolah">Nama Asal Sekolah</label>
+                    <input type="text" name="asal_sekolah" id="asal_sekolah" required>
+                </div>
+                <div>
+                    <label for="agama">Agama</label>
+                    <select name="agama" id="agama" required>
+                        <option value="islam">Islam</option>
+                        <option value="protestan">Protestan</option>
+                        <option value="katolik">Katolik</option>
+                        <option value="hindu">Hindu</option>
+                        <option value="buddha">Buddha</option>
+                        <option value="konghucu">Konghucu</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="pekerjaan">Pekerjaan</label>
+                    <input type="text" name="pekerjaan" id="pekerjaan">
+                </div>
+                <div>
+                    <label for="alamat">Alamat</label>
+                    <textarea name="alamat" id="alamat"></textarea>
+                </div>
+                <div>
+                    <label for="nomor_hp">Telp/HP</label>
+                    <input type="text" name="nomor_hp" id="nomor_hp" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div>
+                    <label for="hobi">Hobi</label>
+                    <input type="text" name="hobi" id="hobi">
+                </div>
+            </div>
+            <hr>
+            <div>
+                <h2>II. Data Orang Tua/Wali</h2>
+                <div>
+                    <label for="nip_ortu">NIP</label>
+                    <input type="text" name="nip_ortu" id="nip_ortu">
+                </div>
+                <div>
+                    <label for="nama_ortu">Nama Orang Tua/Wali</label>
+                    <input type="text" name="nama_ortu" id="nama_ortu">
+                </div>
+                <div>
+                    <label for="alamat_ortu">Alamat</label>
+                    <textarea name="alamat" id="alamat"></textarea>
+                </div>
+                <div>
+                    <label for="nomor_hp_ortu">Telp/HP</label>
+                    <input type="text" name="nomor_hp_ortu" id="nomor_hp_ortu">
+                </div>
+                <div>
+                    <label for="pekerjaan">Pekerjaan</label>
+                    <input type="text" name="pekerjaan_ortu" id="pekerjaan_ortu">
+                </div>
+                <div>
+                    <label for="jabatan_ortu">Posisi/Jabatan</label>
+                    <input type="text" name="jabatan_ortu" id="jabatan_ortu">
+                </div>
+                <div>
+                    <label for="tempat_kerja_ortu">Tempat Kerja</label>
+                    <input type="text" name="tempat_kerja_ortu" id="tempat_kerja_ortu">
+                </div>
+            </div>
+            <br>
+            <div>
+                <button type="submit">Daftar</button>
+            </div>
+        </form>
+    </fieldset>
+</body>
+</html>
